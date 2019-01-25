@@ -2,7 +2,7 @@
 var getFruitOrder = function (child) {
 	var div = document.getElementById('imageContainer');
 	var img = div.getElementsByTagName('img');
-	fetch('http://localhost:3000/getFruit')
+	fetch('http://149.248.53.121:3000/getFruit')
 		.then((resp) => resp.json())
 		.then(function (data) {
 			for (var i = 0; i < 3; i += 1) {
@@ -23,7 +23,7 @@ var sendFruit = function () {
 		data.push(img[i].src)
 	}
 
-	url = 'http://localhost:3000/updateFruit'
+	url = 'http://149.248.53.121:3000/updateFruit'
 
 	data = {orderIMG:data}
 
