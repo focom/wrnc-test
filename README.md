@@ -1,6 +1,6 @@
 # Test of Pierre Valentin
 
-#### Could not deploy, dont have enough time to set a https endpoint to alllow the fetch request to not fail
+#### Could not deploy, dont have enough time to set a https endpoint to alllow the fetch request to pass
 
 clone the repo
 
