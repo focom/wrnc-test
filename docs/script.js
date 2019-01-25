@@ -1,23 +1,3 @@
-// events = [
-//   'onChoose',
-//   'onStart',
-//   'onEnd',
-//   'onAdd',
-//   'onUpdate',
-//   'onSort',
-//   'onRemove'
-// ].forEach(function (name) {
-//   options[name] = function (evt) {
-//     console.log({
-//       'event': name,
-//       'this': this,
-//       'item': evt.item,
-//       'from': evt.from,
-//       'to': evt.to
-//     });
-//   };
-// });
-
 
 var getFruitOrder = function (child) {
 	var div = document.getElementById('imageContainer');
@@ -40,7 +20,6 @@ var sendFruit = function () {
 	var img = div.getElementsByTagName('img');
 	var data = []
 	for (var i = 0; i < 3; i += 1) {
-		// console.log('lololol',img[i].src)
 		data.push(img[i].src)
 	}
 
@@ -51,17 +30,6 @@ var sendFruit = function () {
 	console.log(JSON.stringify(data))
 	postData(url,data)
 
-	// var payload = {
-	// 	method: 'POST',
-	// 	body: JSON.stringify(data),
-	// 	'Content-Type': 'application/json'
-	// }
-	// fetch(url, payload)
-	// 	.then((res)=>console.log(res))
-	// 	.catch(function (err) {
-	// 		console.error(err)
-	// 		alert('the api does not work')
-	// 	});
 }
 
 function postData(url, data) {
