@@ -1,6 +1,6 @@
 # Test of Pierre Valentin
 
-#### Could not deploy, dont have enough time to set a https endpoint to alllow the fetch request to pass
+#### Could not deploy, dont have enough time to set a https endpoint to alllow the fetch request to pass (see: https://focom.github.io/wrnc-test/)
 
 clone the repo
 
