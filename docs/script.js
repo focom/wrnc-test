@@ -26,6 +26,8 @@ var sendFruit = function () {
 	}
 
 	url = 'http://localhost:5000/updateFruit'
+	// fetch('http://149.248.53.121:5000/getFruit')
+
 
 	data = {orderIMG:data}
 
